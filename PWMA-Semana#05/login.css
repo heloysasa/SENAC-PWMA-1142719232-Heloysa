@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #191970;
+    height: 4em;
+}a{
+    text-decoration: none;
+    height: 1em;
+    padding: 0.7em;
+    background: #6495ED;
+    color:antiquewhite;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}.nome{
+    background: #191970;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}main{
+    background: url("assets/NFL.jpg") no-repeat;
+    background-size:100% 100%;
+    opacity: 0.5;
+    height: 25.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 15em;
+    padding-left: 3em;
+    
+}
+
+
+
+.login{
+    display: inline-block;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 15em;
+}h2{
+    margin-left: 3.5em;
+    margin-bottom: 1em;
+}
+
+input{
+    padding: 1em;
+    border-radius: 10px;
+}

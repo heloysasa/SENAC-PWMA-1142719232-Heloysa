@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+}nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #191970;
+    height: 4em;
+}a{
+    text-decoration: none;
+    height: 1em;
+    padding: 0.7em;
+    margin-right: 2em;
+    background: #6495ED;
+    color:antiquewhite;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}.nome{
+    background: #191970;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} main{
+    background: url("assets/NFL.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment:fixed;
+    opacity: 0.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 13em;
+    padding-bottom: 15px;
+    
+}.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    display: inline-block;
+    color: #000;
+    
+}.equipes{
+    padding-top: 2em;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}h1{
+    display: flex;
+    flex-direction: row;
+    background-color:aliceblue ;
+    border-radius: 15px;
+    padding: .5em;
+}img {
+   width: 2em;
+}.lA{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    
+}.ladoA{
+    margin-right: 23em;
+}

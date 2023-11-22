@@ -1,28 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touchdown Tracker</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="home.html" class = "nome"> Touchdown Tracker </a>
-            <a href="times.html"> Times </a>
-            <a href="placares.html"> Placares </a>
-            <a href="noticias.html"> Notícias </a>
-            <a href="melhoresJogadas.html"> Melhores Jogadas </a>
-            <a href="login.html"> Login </a>
-            
-         </nav>  
+          
+              <a href="home.html" class = "nome"> Touchdown Tracker </a>
+              <a href="times.html"> Times </a>
+              <a href="placares.html"> Placares </a>
+              <a href="noticias.html"> Notícias </a>
+              <a href="melhoresJogadas.html"> Melhores Jogadas </a>
+              <a href="#" onclick="showLoginForm()">Login</a>
+      
+        </nav>
     </header>
-      <form action="" method="post">
-        <input type="username" name="username" placeholder="E-mail">
-        <input type="password" name="password" placeholder="Senha">
-        <input type="submit" value="Entrar">
-      </form>
-  <script src="login.js"></script>
+    <main>
+      <section id="loginForm" style="display: block;" class="login">
+        <form onsubmit="login(event)">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+
+    <section id="welcomeMessage" style="display: none;">
+        <h2>Bem-Vindo/a Heloysa!</h2>
+    </section>
+    </main>
+
+
+
+
+    <script src="login.js"></script>
 </body>
 </html>
+           
+            
+       

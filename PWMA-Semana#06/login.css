@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding:0;
+    
+}body{
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -9,6 +13,7 @@ nav{
     justify-content: space-around;
     background: #191970;
     height: 4em;
+    width: 95em;
 }a{
     text-decoration: none;
     height: 1em;
@@ -29,14 +34,23 @@ nav{
     background-size:100% 100%;
     opacity: 0.5;
     height: 25.1em;
+    width: 52em;
+    height: 25em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 15em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 20em;
+    padding-right: 23em;
     
 }section{
     display: flex;
     flex-direction: column;
+    align-items: center;
+        background-color:aliceblue ;
+        border-radius: 15px;
+        padding: 3.5em;
+        margin-bottom: 7em;
+        margin-left: 17em;
+        
 }.LC{
     display: flex;
     flex-direction: row;
@@ -45,20 +59,7 @@ nav{
 
 
 .login{
-    display: inline-block;
-    background-color: #fff;
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 30px;
-    margin-left: 6em;
-    margin-right: 3em;
-}.cadastro{
-    display: inline-block;
-    background-color: #fff;
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 30px;
-    margin-right: 6em;
+    margin-top: -3em;
 }h2{
     margin-left: 2em;
     margin-right: 2em;
@@ -120,4 +121,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
+
+
+ 
   
